@@ -9,16 +9,16 @@
 #include <ArduinoJson.h>
 
 //---------Credenciales WiFi
-const char* ssid = "TIGO-8C40";
-const char* password = "2NB144204764";
+const char* ssid = "NOMBRE DE TU RED";
+const char* password = "CONTRASEÑA DE LA RED";
 
 //----------Credenciales Telegram-------
 
 // Inicializar bot telegram
-#define BOTtoken "5048311346:AAGgyZZVPWjwJI1auIqIJRRUIhZGbfs4niU"  //obtenida de  Botfather
+#define BOTtoken "TU-TOKEN"  //obtenida de  Botfather
 
 // Use @myidbot para buscar el ID del chat individual o grupal que desee
-#define CHAT_ID "941168513"
+#define CHAT_ID "TU-CHAD-ID"
 
 #ifdef ESP8266
   X509List cert(TELEGRAM_CERTIFICATE_ROOT);
